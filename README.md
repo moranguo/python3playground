@@ -1,6 +1,6 @@
-#Introduction
-##project name python3playground
+#Introduction 
+##project name python3playground 
 This is a playground to test new idea with python3
 
-##test subtitle
+##test subtitle 
 `print('PyCharm is cool!')` 
