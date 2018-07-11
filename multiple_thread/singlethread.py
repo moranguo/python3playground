@@ -1,0 +1,26 @@
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+from time import sleep, ctime
+
+
+def loop0():
+    print('start loop 0 at:', ctime())
+    sleep(4)
+    print('loop 0 done at', ctime())
+
+
+def loop1():
+    print('start loop 1 at:', ctime())
+    sleep(2)
+    print('loop 1 done at:', ctime())
+
+
+def main():
+    """顺序执行两个循环，即第一个循环执行完毕，才能执行第二个"""
+    print('staring at:', ctime())
+    loop0()
+    loop1()
+    print('all DONE at:', ctime())
+
+if __name__ == '__main__':
+    main()
