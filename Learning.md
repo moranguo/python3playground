@@ -7,3 +7,9 @@
     1.the pip install package is under os level python installed path
     2.File->Settings->Project:xxx->Project Interpreter
     3.Select the OS level python.exe
+    
+### change project setting under .idea
+    1.Disable remember "Add file to Git" in workspace.xml
+    <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+    </component>
