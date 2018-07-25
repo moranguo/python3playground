@@ -16,5 +16,12 @@ class TestStringMethods(unittest.TestCase):
         with self.assertRaises(TypeError):
             s.split(2)
 
+# python example.py
+# python example.py -v
+# The unittest module can be used from the command line to run tests from modules, classes or even individual test methods
+# python -m unittest example.py
+# python -m unittest example.TestStringMethods
+# python -m unittest example.TestStringMethods.test_upper
+# python -m unittest example.py -v
 if __name__ == '__main__':
     unittest.main()
