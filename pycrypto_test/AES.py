@@ -1,7 +1,7 @@
 from Crypto.Cipher import AES
 from Crypto.Random import random
 
-# 使用pycrypto‎demo库
+# 使用pycrypto‎dome库
 # TypeError: Object type <class 'str'> cannot be passed to C code
 # 经过Debug发现，是因为传入参数的参数类型存在问题，需要更换为 bytearray
 
