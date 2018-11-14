@@ -24,4 +24,5 @@ class TestStringMethods(unittest.TestCase):
 # python -m unittest example.TestStringMethods.test_upper
 # python -m unittest example.py -v
 if __name__ == '__main__':
-    unittest.main()
+    #unittest.main()
+    unittest.main(verbosity=2)
