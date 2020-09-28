@@ -27,3 +27,4 @@ def find_Second_large_num(num_list):
 if __name__ == '__main__':
     num_list = [34, 11, 23, 56, 78, 0, 9, 12, 3, 7, 5]
     find_Second_large_num(num_list)
+    print(find_Second_large_num.__doc__)
